@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import csv
 import json
 from pathlib import Path
@@ -5,26 +7,47 @@ from pathlib import Path
 from app.config import DEFAULT_RESULTS_PATH
 
 
-def ensure_parent_dir(path: str | Path):
+def ensure_parent_dir(path: str | Path) -> Path:
     p = Path(path)
     p.parent.mkdir(parents=True, exist_ok=True)
     return p
 
 
+def load_json(path: str | Path, default=None):
+    p = Path(path)
+    if not p.exists():
+        return default
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+
+def save_json(data, path: str | Path):
+    p = ensure_parent_dir(path)
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    return str(p)
+
+
 def save_result(result: dict, path: str | Path = DEFAULT_RESULTS_PATH):
     p = ensure_parent_dir(path)
-    existing = []
-    if p.exists():
-        try:
-            existing = json.loads(p.read_text(encoding="utf-8"))
-        except Exception:
-            existing = []
-
-    if isinstance(existing, dict):
+    existing = load_json(p, [])
+    if not isinstance(existing, list):
         existing = [existing]
-
     existing.append(result)
-    p.write_text(json.dumps(existing, indent=2), encoding="utf-8")
+    save_json(existing, p)
+    return str(p)
+
+
+def append_result(result: dict, path: str | Path):
+    p = Path(path)
+    existing = load_json(p, [])
+    if not isinstance(existing, list):
+        existing = [existing]
+    existing.append(result)
+    save_json(existing, p)
     return str(p)
 
 
@@ -53,3 +76,9 @@ def save_csv_summary(rows: list[dict], path: str | Path):
                 "matched_keywords": ", ".join(row.get("matched_keywords", [])),
                 "warnings": "; ".join(row.get("warnings", [])),
             })
+
+    return str(p)
+
+
+def export_summary_csv(rows: list[dict], path: str | Path):
+    return save_csv_summary(rows, path)
