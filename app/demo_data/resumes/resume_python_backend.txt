@@ -1,0 +1,36 @@
+Priya Sharma
+Email: priya.sharma@gmail.com
+Phone: +1 415-555-0102
+Location: San Francisco, CA
+
+SUMMARY
+Python backend engineer with 3 years of experience building APIs and data services. Strong background in FastAPI, SQL, PostgreSQL, Docker, and cloud deployment. Passionate about clean architecture, automation, and solving business problems with scalable backend systems.
+
+SKILLS
+Python, FastAPI, Flask, REST APIs, SQL, PostgreSQL, Docker, Git, AWS, JavaScript, React, CI/CD, Linux, API Design, System Design
+
+EXPERIENCE
+Python Backend Engineer | NovaStack Labs | 2023 - Present
+- Built REST APIs using FastAPI for billing and analytics services.
+- Optimized PostgreSQL queries and improved response times by 40%.
+- Integrated CI/CD pipelines to automate deployment and testing.
+- Worked closely with product and frontend teams on API design and release planning.
+- Containerized services using Docker and deployed them on AWS EC2.
+
+Junior Python Developer | BlueOrbit Solutions | 2021 - 2023
+- Built internal automation tools with Python and Flask.
+- Created data processing scripts for business departments.
+- Improved reporting workflows with SQL and dashboard automation.
+- Collaborated with QA to ship stable features and fix production issues.
+
+EDUCATION
+B.Tech in Computer Science
+University of Pune, India
+
+PROJECTS
+Smart Analytics API
+- Built a Python service for reporting and dashboard ingestion.
+- Improved request throughput and simplified deployment workflows.
+
+CERTIFICATIONS
+AWS Cloud Practitioner

@@ -1,0 +1,20 @@
+Aisha Patel
+Email: aisha.patel@gmail.com
+Phone: +1 415-555-0115
+Location: Austin, TX
+
+SUMMARY
+Data analyst with a strong focus on analytics, BI reporting, SQL, and business dashboards. Brings experience in cleaning data, driving analysis, and delivering metrics for product teams.
+
+SKILLS
+SQL, Excel, Power BI, Tableau, Python, Pandas, NumPy, Data Analysis, Dashboarding, Reporting
+
+EXPERIENCE
+Data Analyst | Bright Metrics | 2022 - Present
+- Built dashboards using Power BI and Excel for product reporting.
+- Analyzed customer behavior and performance metrics across business units.
+- Created SQL queries for revenue and retention analysis.
+
+EDUCATION
+B.Sc in Statistics
+University of Texas at Austin

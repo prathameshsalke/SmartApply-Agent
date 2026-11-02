@@ -1,0 +1,28 @@
+We are hiring a Python Backend Engineer to build reliable services for internal tools and customer workflows.
+
+Responsibilities:
+- Design, build, and maintain backend services using Python
+- Develop REST APIs using FastAPI and Flask where needed
+- Work with PostgreSQL and SQL-based data models
+- Collaborate with frontend teams and product teams
+- Create clean, maintainable, testable code
+- Deploy services using Docker and CI/CD pipelines
+- Monitor application health and improve system reliability
+
+Required skills:
+- Python
+- FastAPI
+- REST APIs
+- SQL
+- PostgreSQL
+- Docker
+- Git
+- CI/CD
+- AWS container or cloud experience
+- Problem solving and communication
+- Experience with backend engineering and scalable services
+
+Preferred:
+- Experience with API design, performance tuning, and debugging
+- Knowledge of cloud deployment and service monitoring
+

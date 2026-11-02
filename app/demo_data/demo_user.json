@@ -1,0 +1,34 @@
+{
+  "full_name": "Priya Sharma",
+  "email": "priya.sharma@gmail.com",
+  "phone": "+1 415-555-0102",
+  "location": "San Francisco, CA",
+  "gender": "female",
+  "education": [
+    "B.Tech in Computer Science",
+    "Minor in Software Engineering"
+  ],
+  "experience_years": 3,
+  "skills": [
+    "Python",
+    "FastAPI",
+    "Django",
+    "Flask",
+    "REST APIs",
+    "SQL",
+    "PostgreSQL",
+    "Docker",
+    "Git",
+    "JavaScript",
+    "React",
+    "AWS",
+    "CI/CD"
+  ],
+  "preferred_roles": [
+    "Python Developer",
+    "Backend Engineer",
+    "Full Stack Developer"
+  ],
+  "linkedin": "https://www.linkedin.com/in/priyasharma",
+  "portfolio": "https://github.com/priyasharma"
+}

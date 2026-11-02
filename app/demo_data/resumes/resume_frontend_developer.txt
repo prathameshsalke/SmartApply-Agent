@@ -1,0 +1,20 @@
+Rahul Mehta
+Email: rahul.mehta@gmail.com
+Phone: +1 415-555-0130
+Location: Seattle, WA
+
+SUMMARY
+Frontend developer with experience building responsive web apps using React and JavaScript. Interested in product design and UI engineering.
+
+SKILLS
+JavaScript, React, HTML, CSS, Tailwind, Redux, UI Design, REST APIs, Git
+
+EXPERIENCE
+Frontend Developer | Pixel Harbor | 2022 - Present
+- Built user interfaces using React and JavaScript.
+- Collaborated with backend teams to integrate APIs.
+- Improved page performance and UI consistency.
+
+EDUCATION
+B.E. in Information Technology
+University of Mumbai
