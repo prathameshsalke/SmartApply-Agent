@@ -1,0 +1,3 @@
+# ClipForge optional local transcription dependencies
+# Install with: pip install -r requirements-clipforge.txt
+openai-whisper>=20231117
